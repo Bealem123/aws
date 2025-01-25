@@ -3,7 +3,7 @@ const axios = require("axios");
 
 // Set up the Axios instance with a base URL
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api", // replace with your backend URL
+  baseURL: "https://aws-pm73.onrender.com", // replace with your backend URL
   timeout: 10000, // optional: sets a timeout for requests
 });
 
